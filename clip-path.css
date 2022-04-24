@@ -1,0 +1,48 @@
+.circle {
+    position: absolute;
+    right: 10%;
+    top: 6%;
+    margin-top: 4%;
+}
+
+.inner, .inner-2, .inner-3 {
+    background-color: rgb(247, 175, 141);
+    max-width: 100%;
+    width: 35vw;
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+    height: 15vh;
+    clip-path: circle(5% at 90% 15%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0);
+    margin-top: 5%;
+}
+
+.inner:hover{
+    clip-path: circle(75% );
+    background-color: rgb(0, 204, 255);
+    color: white;
+}
+
+.two:hover{
+    background-color: rgb(248, 116, 220);
+}
+
+.three:hover{
+    background-color: rgb(159, 107, 228);
+}
+
+.info{
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    top: 30%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+citation */
